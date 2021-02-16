@@ -1,0 +1,51 @@
+baseURL: https://example.com
+languageCode: pt-br
+DefaultContentLanguage: pt_br
+title: César Lemos
+theme: anatole
+summarylength: 10
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+params:
+  author: César Lemos
+  customCss: []
+  customJs: []
+  description: Cientista de Dados
+  doNotLoadAnimations: yes
+  favicon: favicons/
+  images: images/site-feature-image.png
+  keywords: ''
+  mainSections: post
+  math:
+    enable: no
+    use: katex
+  profilePicture: images/me2.jpg
+  simpleAnalytics: {}
+  socialIcons:
+    - icon: fab fa-linkedin
+      title: Linkedin
+      url: https://www.linkedin.com/in/c%C3%A9sar-lemos-4a8b124b/
+    - icon: fab fa-github
+      title: GitHub
+      url: https://github.com/cesarjlemos
+    - icon: fas fa-envelope
+      title: e-mail
+      url: mailto:cesar_lemos@outlook.com
+  title: César Lemos
+menu:
+  main:
+    - identifier: about
+      name: Sobre mim
+      url: /about/
+      weight: 100
+    - identifier: posts
+      name: Blog
+      url: /post/
+      weight: 200
+    - identifier: projects
+      name: Projetos
+      url: /archives/
+      weight: 300
